@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_eea00d772dfb80f3a052a75c15c5ab65 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_eea00d772dfb80f3a052a75c15c5ab65" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_eea00d772dfb80f3a052a75c15c5ab65 = L.map(
+                "map_eea00d772dfb80f3a052a75c15c5ab65",
+                {
+                    center: [40.72897303442462, -73.98960772262573],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6b2f7e562a15c07021d06844a430a830 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_6b2f7e562a15c07021d06844a430a830.addTo(map_eea00d772dfb80f3a052a75c15c5ab65);
+        
+    
+            var marker_83e717131ba18e263f0a0f0d7b805136 = L.marker(
+                [40.7177325, -74.043845],
+                {
+}
+            ).addTo(map_eea00d772dfb80f3a052a75c15c5ab65);
+        
+    
+            var icon_96f4166aa5e5ba9780d0bb0307844ae9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f0555a96a1979ebdbb83f477d42ba61e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f998e9ccb6b212f8e6dbd609380211f = $(`<div id="html_5f998e9ccb6b212f8e6dbd609380211f" style="width: 100.0%; height: 100.0%;">Start: City Hall</div>`)[0];
+                popup_f0555a96a1979ebdbb83f477d42ba61e.setContent(html_5f998e9ccb6b212f8e6dbd609380211f);
+            
+        
+
+        marker_83e717131ba18e263f0a0f0d7b805136.bindPopup(popup_f0555a96a1979ebdbb83f477d42ba61e)
+        ;
+
+        
+    
+    
+                marker_83e717131ba18e263f0a0f0d7b805136.setIcon(icon_96f4166aa5e5ba9780d0bb0307844ae9);
+            
+    
+            var marker_e0344aa77f3d0853b2094c8cc015398a = L.marker(
+                [40.74021356884924, -73.93537044525146],
+                {
+}
+            ).addTo(map_eea00d772dfb80f3a052a75c15c5ab65);
+        
+    
+            var icon_ebcb8a09267812d05b316a58a87ddd62 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_88049b818c752b6de08abfde9be46b93 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87e6864fade453840f9848302511dc73 = $(`<div id="html_87e6864fade453840f9848302511dc73" style="width: 100.0%; height: 100.0%;">End: 31 Pl & Hunters Point Ave</div>`)[0];
+                popup_88049b818c752b6de08abfde9be46b93.setContent(html_87e6864fade453840f9848302511dc73);
+            
+        
+
+        marker_e0344aa77f3d0853b2094c8cc015398a.bindPopup(popup_88049b818c752b6de08abfde9be46b93)
+        ;
+
+        
+    
+    
+                marker_e0344aa77f3d0853b2094c8cc015398a.setIcon(icon_ebcb8a09267812d05b316a58a87ddd62);
+            
+    
+            var poly_line_32c3e841ff28956266e64872e4b61cf8 = L.polyline(
+                [[40.71777, -74.04398], [40.71952, -74.04301], [40.71901, -74.04135], [40.72969, -74.03966], [40.72979, -74.03664], [40.72613, -74.01207], [40.72249, -74.00658], [40.72176, -74.00672], [40.72131, -74.00799], [40.72051, -74.00705], [40.72035, -74.00547], [40.72238, -74.00377], [40.7198, -73.99851], [40.72146, -73.9974], [40.71021, -73.96129], [40.71036, -73.95711], [40.711, -73.9557], [40.71405, -73.95315], [40.71782, -73.9479], [40.7236, -73.93842], [40.72574, -73.93108], [40.72897, -73.92722], [40.73261, -73.92454], [40.73325, -73.92149], [40.73428, -73.92151], [40.7353, -73.92295], [40.73794, -73.93588], [40.74022, -73.93542]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_eea00d772dfb80f3a052a75c15c5ab65);
+        
+    
+        var popup_260f1b9beac539c33ba2775043c64e80 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d5ac0b314b75ab6d1b6b232793e834a5 = $(`<div id="html_d5ac0b314b75ab6d1b6b232793e834a5" style="width: 100.0%; height: 100.0%;">Cycling Route: 9.50 km</div>`)[0];
+                popup_260f1b9beac539c33ba2775043c64e80.setContent(html_d5ac0b314b75ab6d1b6b232793e834a5);
+            
+        
+
+        poly_line_32c3e841ff28956266e64872e4b61cf8.bindPopup(popup_260f1b9beac539c33ba2775043c64e80)
+        ;
+
+        
+    
+</script>
+</html>
