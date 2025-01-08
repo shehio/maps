@@ -10,3 +10,13 @@ This project analyzes NYC CitiBikes data to understand bike usage patterns, popu
 - Spatial analysis of bike stations and routes
 - Visualization of bike usage patterns
 - Analysis of popular routes and stations
+
+## Installation
+1. Clone the repository:
+
+
+2. Create and activate a virtual environment:
+
+
+3. Install dependencies:
+
